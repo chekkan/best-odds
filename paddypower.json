@@ -1,0 +1,82 @@
+[
+    {
+        "team": "Man City",
+        "odds": 3.3
+    },
+    {
+        "team": "Man Utd",
+        "odds": 4
+    },
+    {
+        "team": "Chelsea",
+        "odds": 7
+    },
+    {
+        "team": "Arsenal",
+        "odds": 7
+    },
+    {
+        "team": "Tottenham",
+        "odds": 10
+    },
+    {
+        "team": "Liverpool",
+        "odds": 10
+    },
+    {
+        "team": "Leicester",
+        "odds": 23
+    },
+    {
+        "team": "West Ham",
+        "odds": 81
+    },
+    {
+        "team": "Everton",
+        "odds": 81
+    },
+    {
+        "team": "Southampton",
+        "odds": 101
+    },
+    {
+        "team": "Middlesbrough",
+        "odds": 501
+    },
+    {
+        "team": "Crystal Palace",
+        "odds": 501
+    },
+    {
+        "team": "Stoke",
+        "odds": 501
+    },
+    {
+        "team": "Swansea",
+        "odds": 1001
+    },
+    {
+        "team": "Sunderland",
+        "odds": 1001
+    },
+    {
+        "team": "Watford",
+        "odds": 1001
+    },
+    {
+        "team": "Burnley",
+        "odds": 1001
+    },
+    {
+        "team": "West Brom",
+        "odds": 1001
+    },
+    {
+        "team": "Bournemouth",
+        "odds": 1001
+    },
+    {
+        "team": "Hull",
+        "odds": 501
+    }
+]
