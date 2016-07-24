@@ -1,82 +1,98 @@
 [
     {
         "team": "Man City",
-        "odds": 3.7
+        "back_odds": 3.7,
+        "lay_odds": 3.75
     },
     {
         "team": "Man Utd",
-        "odds": 4.6
+        "back_odds": 4.6,
+        "lay_odds": 4.7
     },
     {
         "team": "Chelsea",
-        "odds": 6.8
+        "back_odds": 6.8,
+        "lay_odds": 7
     },
     {
         "team": "Arsenal",
-        "odds": 7.6
+        "back_odds": 7.6,
+        "lay_odds": 7.8
     },
     {
         "team": "Tottenham",
-        "odds": 11
+        "back_odds": 11,
+        "lay_odds": 11.5
     },
     {
         "team": "Liverpool",
-        "odds": 11
+        "back_odds": 10.5,
+        "lay_odds": 11
     },
     {
         "team": "Leicester",
-        "odds": 36
+        "back_odds": 36,
+        "lay_odds": 38
     },
     {
         "team": "West Ham",
-        "odds": 80
+        "back_odds": 80,
+        "lay_odds": 85
     },
     {
         "team": "Everton",
-        "odds": 100
+        "back_odds": 100,
+        "lay_odds": 110
     },
     {
         "team": "Southampton",
-        "odds": 230
+        "back_odds": 210,
+        "lay_odds": 240
     },
     {
         "team": "Crystal Palace",
-        "odds": 410
+        "back_odds": 410,
+        "lay_odds": 570
     },
     {
         "team": "Middlesbrough",
-        "odds": 370
+        "back_odds": 360,
+        "lay_odds": 390
     },
     {
         "team": "Swansea",
-        "odds": 650
+        "back_odds": 650,
+        "lay_odds": 670
     },
     {
         "team": "Stoke",
-        "odds": 700
+        "back_odds": 700,
+        "lay_odds": 720
     },
     {
         "team": "Sunderland",
-        "odds": 860
+        "back_odds": 900,
+        "lay_odds": 940
     },
     {
         "team": "Watford",
-        "odds": 920
+        "back_odds": 920,
+        "lay_odds": 940
     },
     {
         "team": "Burnley",
-        "odds": 1000
+        "back_odds": 1000
     },
     {
         "team": "West Brom",
-        "odds": 1000
+        "back_odds": 1000
     },
     {
         "team": "Bournemouth",
-        "odds": 1000
+        "back_odds": 1000
     },
     {
         "team": "Hull",
-        "odds": 1000
+        "back_odds": 1000
     }
 ]
