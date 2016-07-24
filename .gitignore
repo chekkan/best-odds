@@ -40,3 +40,6 @@ jspm_packages
 typings
 *.js
 *.js.map
+
+# dist
+dist
