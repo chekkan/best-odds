@@ -9,10 +9,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor='#team of teams'>
-            <td>{{team.Name}}</td>
-            <td>{{team.BestBackOdds}}</th>
-            <td>{{team.BestLayOdds}}</th>
+        <tr *ngFor='let team of teamOdds'>
+            <td>{{team.name}}</td>
+            <td>{{team.back_odds}}</td>
+            <td>{{team.lay_odds}}</td>
         </tr>
     </tbody>
 </table>
