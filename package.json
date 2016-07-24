@@ -7,7 +7,8 @@
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings"
+    "typings": "typings",
+    "tslint": "tslint -c tslint.json app/**/*.ts"
   },
   "license": "None",
   "dependencies": {
@@ -31,8 +32,16 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "bower-sync": "^0.1.1",
     "concurrently": "^2.0.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^6.0.1",
+    "gulp-typescript": "^2.13.6",
     "lite-server": "^2.2.0",
+    "tsconfig-glob": "^0.4.3",
+    "tslint": "^3.13.0",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   }

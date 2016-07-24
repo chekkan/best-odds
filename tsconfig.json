@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist/app",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -8,5 +9,24 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
-  }
+  },
+  "filesGlob": [
+    "app/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "typings/globals/core-js/index.d.ts",
+    "typings/globals/jasmine/index.d.ts",
+    "typings/globals/node/index.d.ts",
+    "typings/index.d.ts",
+    "typings/modules/lodash/index.d.ts",
+    "app/app.component.ts",
+    "app/main.ts",
+    "app/odds/odd.model.ts",
+    "app/odds/odds-list.component.ts",
+    "app/odds/odds.service.ts"
+  ]
 }
