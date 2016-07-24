@@ -22,13 +22,19 @@ export class OddsListComponent {
     }
 
     getBestOdds(odds : Odds[]) : Team[] {
-        var result = _.chain(odds)
+        var grouped = <Team[]>_.chain(odds)
             .groupBy("team")
             .toPairs()
             .map(function(currentItem) {
-                return _.zipObject(["name", "odds"], currentItem);
+                return _.zipObject(["name", "other_odds"], currentItem);
             })
             .value();
-        return <Team[]>result;
+
+        return _.map(grouped, function(item){
+            item.best_back_odds = _.maxBy(item.other_odds, 'back_odds').back_odds;
+            var maxObject =_.maxBy(item.other_odds, 'lay_odds');
+            item.best_lay_odds = maxObject == undefined ? undefined : maxObject.lay_odds;
+            return item; 
+        });
     }
 }
